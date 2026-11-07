@@ -133,10 +133,7 @@ public class SpiritEntity extends HuntMonsterEntity {
         return false;
     }
 
-    @Override
-    public boolean canBreatheInWater() {
-        return true;
-    }
+  
 
     /** Burned away when the bones go up in flames. */
     public void burnAway() {
