@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "salted=false": {
+      "model": "snhunt:block/grave"
+    },
+    "salted=true": {
+      "model": "snhunt:block/grave_salted"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "snhunt",
+  "version": "${version}",
+  "name": "Supernatural: The Hunt (fan mod)",
+  "description": "An unofficial fan mod inspired by the TV series Supernatural. Hunt ghosts, wendigos, shapeshifters, vampires and demons with salt, iron, holy water and the Colt, and play through Season 1 in story mode. Not affiliated with or endorsed by the show's creators or Warner Bros.",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/snhunt/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.fanmods.snhunt.SNHunt"],
+    "client": ["com.fanmods.snhunt.client.SNHuntClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}

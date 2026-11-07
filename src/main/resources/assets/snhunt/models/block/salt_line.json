@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/carpet",
+  "textures": {
+    "wool": "snhunt:block/salt_line",
+    "particle": "snhunt:block/salt_line"
+  }
+}
