@@ -133,8 +133,6 @@ public class SpiritEntity extends HuntMonsterEntity {
         return false;
     }
 
-  
-
     /** Burned away when the bones go up in flames. */
     public void burnAway() {
         banish();
